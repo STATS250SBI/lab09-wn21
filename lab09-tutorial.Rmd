@@ -18,6 +18,7 @@ source("plot_t.R")
 # Learning Objectives
 
 ## Statistical Learning Objectives
+1. Learn about the $t$ distribution
 1. Get experience making confidence intervals for population means
 1. Understand hypothesis tests for population means
 
@@ -28,8 +29,6 @@ source("plot_t.R")
 1. `pt()`
 1. `qt()`
 1. `plot_t()` (custom)
-1. `qqnorm()`
-1. `qqline()`
 1. `t.test()`
 
 ## Weekly Advice
