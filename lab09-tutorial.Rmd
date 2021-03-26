@@ -96,7 +96,7 @@ Let's check these conditions!
 
 ### Checking the Normality Condition
 
-Let's start by making a histogram 
+Let's start by making a histogram.
 
 ```{r flipperHist}
 hist(penguins$flipper_length_mm,
@@ -121,7 +121,7 @@ The first thing we should do here is to just look at some summary statistics: wh
 summary(penguins$flipper_length_mm)
 ```
 
-So the mean flipper length of the penguins in our sample is 201 mm. That will be the center of our confidence interval: remember that a confidence interval looks like $$\text{estimate} \pm \text{(a few)} \times \mathrm{SE}_{\text{estimate}}.$$
+So the mean flipper length of the penguins in our sample is 201 mm. That will be the center of our confidence interval: remember that a confidence interval looks like $$\text{point estimate} \pm \text{(a few)} \times \mathrm{SE}_{\text{point estimate}}.$$
 
 We can easily do this using the `t.test()` function. This is similar to `prop_test()`! Woo! All we do is give `t.test()` the variable we want to examine and a `conf.level`.
 
