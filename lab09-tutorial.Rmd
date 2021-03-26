@@ -92,7 +92,7 @@ Let's check these conditions!
 
 1. We don't know exactly the sampling mechanism used in this data, but we'll proceed with caution. (Check out the article the data were collected for if you're interested in more details:  https://doi-org.proxy.lib.umich.edu/10.1371/journal.pone.0090081)
 
-2. To check the nearly-normal condition, we need to look at the data! One way to do this is to look at a histogram. Another is to examine a **Q-Q plot**.
+2. To check the nearly-normal condition, we need to look at the data! One way to do this is to look at a histogram.
 
 ### Checking the Normality Condition
 
